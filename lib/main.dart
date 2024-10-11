@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
     _screens.add(CarroCadastroScreen(carros: _carros));
     _screens.add(DestinoCadastroScreen(destinos: _destinos));
     _screens.add(CombustivelCadastroScreen(combustiveis: _combustiveis));
-    _screens.add(CalculoScreen(carros: _carros, destinos: _destinos, combustiveis: _combustiveis));
+    _screens.add(CalculoScreen(carros: _carros, destinos: _destinos, combustiveis: _combustiveis ));
   }
 
   @override
